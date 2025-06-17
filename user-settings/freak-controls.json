@@ -1,0 +1,15 @@
+{
+    "moveLeft": "KeyA",
+    "moveRight": "KeyD",
+    "softDrop": "ShiftLeft",
+    "hardDrop": "KeyS",
+    "rotateLeft": "KeyJ",
+    "rotateRight": "KeyL",
+    "rotate180": "KeyK",
+    "hold": "Slash",
+    "startMarathon": "KeyV",
+    "startSprint": "KeyC",
+    "debugColourOrSpriteSwap": "Digit1",
+    "pause": "Escape",
+    "_comment": "use the event.code property of a KeyboardEvent object."
+}

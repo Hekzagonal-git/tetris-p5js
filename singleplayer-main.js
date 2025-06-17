@@ -976,9 +976,7 @@ function preload() {
   tetrominoFigures = loadJSON('data-tables/tetromino-figures.json');
   tetrominoOffsetData = loadJSON('data-tables/offset-data.json');
   levelGravities = loadJSON('data-tables/level-gravities.json');
-  controls = loadJSON('user-settings/controls.json');
-
-  dasRates = loadJSON('user-settings/das-arr-rates.json'); // fix this
+  controls = loadJSON('user-settings/freak-controls.json');
 
   // Loading sprites
   let skinZero = [];
