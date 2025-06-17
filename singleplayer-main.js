@@ -973,38 +973,38 @@ class GameDisplay {
 }
 
 function preload() {
-  tetrominoFigures = loadJSON('/data-tables/tetromino-figures.json');
-  tetrominoOffsetData = loadJSON('/data-tables/offset-data.json');
-  levelGravities = loadJSON('/data-tables/level-gravities.json');
-  controls = loadJSON('/user-settings/controls.json');
+  tetrominoFigures = loadJSON('data-tables/tetromino-figures.json');
+  tetrominoOffsetData = loadJSON('data-tables/offset-data.json');
+  levelGravities = loadJSON('data-tables/level-gravities.json');
+  controls = loadJSON('user-settings/controls.json');
 
-  dasRates = loadJSON('/user-settings/das-arr-rates.json'); // fix this
+  dasRates = loadJSON('user-settings/das-arr-rates.json'); // fix this
 
   // Loading sprites
   let skinZero = [];
 
-  let skinZeroI = loadImage('/sprites/skin0/I.png');
+  let skinZeroI = loadImage('sprites/skin0/I.png');
   skinZero.push(skinZeroI);
 
-  let skinZeroJ = loadImage('/sprites/skin0/J.png');
+  let skinZeroJ = loadImage('sprites/skin0/J.png');
   skinZero.push(skinZeroJ);
 
-  let skinZeroL = loadImage('/sprites/skin0/L.png');
+  let skinZeroL = loadImage('sprites/skin0/L.png');
   skinZero.push(skinZeroL);
 
-  let skinZeroO = loadImage('/sprites/skin0/O.png');
+  let skinZeroO = loadImage('sprites/skin0/O.png');
   skinZero.push(skinZeroO);
 
-  let skinZeroS = loadImage('/sprites/skin0/S.png');
+  let skinZeroS = loadImage('sprites/skin0/S.png');
   skinZero.push(skinZeroS);
 
-  let skinZeroT = loadImage('/sprites/skin0/T.png');
+  let skinZeroT = loadImage('sprites/skin0/T.png');
   skinZero.push(skinZeroT);
 
-  let skinZeroZ = loadImage('/sprites/skin0/Z.png');
+  let skinZeroZ = loadImage('sprites/skin0/Z.png');
   skinZero.push(skinZeroZ);
 
-  let skinZeroGhost = loadImage('/sprites/skin0/Ghost.png');
+  let skinZeroGhost = loadImage('sprites/skin0/Ghost.png');
   skinZero.push(skinZeroGhost);
   
   sprites.push(skinZero);
