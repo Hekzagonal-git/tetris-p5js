@@ -13,8 +13,8 @@ const QUEUE_LENGTH = 5;
 const SPRINT_REQUIREMENT = 20;
 
 let autoStartDelay = 10;
-let autoRepeatRate = 3; // All of these are frames-per-delay/repetition, higher is slower
-let softDropSpeed = 3;
+let autoRepeatRate = 1; // All of these are frames-per-delay/repetition, higher is slower
+let softDropSpeed = 1;
 
 let lockDelayTime = 30;
 
